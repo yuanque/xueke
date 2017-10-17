@@ -1,0 +1,250 @@
+.course-infos{
+  .course-wraps{
+    height: 220px;
+    width: 100%;
+    min-width: 1235px;
+    background: linear-gradient(#011935,#37C6C0)
+    //background-color: #011935;
+    //background: linear-gradient(to left, #191a1b,#505659 );
+  }
+  .middle-wrap {
+    width: 95%;
+    min-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .path{
+    width: 100%;
+    height: 20px;
+    & span{
+    color: rgba(255,255,255,.5);}
+    & a{
+      color: rgba(255,255,255,.5);
+    }
+  }
+  .main-title{
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .public-panel {
+    width: 250px;
+    height: 82px;
+    a{
+      display: inline-block;
+      height: 83px;
+      width: 80px;
+      display: inline-block;
+      color: rgb(181, 178, 193);
+      white-space: nowrap;
+      vertical-align: middle;
+      font: 12px/1 宋体;
+      background: rgba(115,104,104,.15);
+      border-radius:3px;  
+      text-decoration: none;
+      margin-left: 10px;  
+    }
+    img {
+      display: block;
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+    span {
+      display: block;
+      font-size: 18px;
+      font-family: '宋体';
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+  }
+  .statics{
+    height: 50px;
+    width: 1200px;
+  }
+  .red-btn{
+    display: inline-block;
+    height: 50px;
+    width: 140px;
+    background-color: #37C6C0;
+    border-radius: 2px;
+    position: relative;
+    margin-right: 36px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 12px 16px 24px;
+    font-weight: 700;
+    font-family: "微软雅黑";
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    & a{
+      display: inline-block;
+      color: #fff;
+      margin-left: 8px;
+      font-size: 18px;
+      font-family: '宋体';
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .red-btn:hover{
+    box-shadow: 0px 0px 2px 2px;
+  }
+  .static-item{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    height: 48px;
+    width: 100px;
+    font-size: 12px;
+    //top: 10px;
+    border-right: 1px solid silver;
+    color: #D0E9FF;
+  }
+  .meta{
+    display: block;
+    margin-top: 3px;
+    opacity: .7;
+    line-height: 12px;
+    font-size: 14px;
+  }
+  .meta-value{
+    display: block;
+    margin-top: 10px;
+    opacity: .7;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .course-info-main{
+    position: relative;
+    top:30px;
+    width: 80%;
+    min-width:1200px;
+    margin: 0 auto;
+  }
+  .course-chapter{
+    width: 100%;
+    min-width: 750px;
+  }
+  .course-prompt{
+    
+  }
+  .ant-tabs-tab{
+    font-size: 16px;
+  }
+  .ant-collapse-header:hover {
+    background-color: #e7e1e1;
+  }
+  .course-power{
+    display: inline-block;
+    margin-left: 5px;
+    height: 20px;
+    width: 46px;
+    background-color: #00343F;
+    border-radius: 3px;
+    color: #D0E9FF;
+  }
+  .qa-btn{
+				display: inline-block;
+        margin-left: 517px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+   
+}
+
+//课程的教师介绍
+  .bigbox{
+    margin-left: 50px;
+    width:300px;
+    p{
+        font-family:"weiruanyahei";
+        font-weight:10em;
+        text-align: left;
+        color:black;
+        margin-bottom: 20px;
+        width:150px;
+     }
+}
+.touxiang{
+    float:left;
+    width:100px;
+    height:100px;
+    margin-right:20px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow:0 0 10px #ddd;
+    border:4px solid #ccc;
+}
+.touxiang img:hover{
+    transition: 3s;
+	transform: scale(1.2);
+}
+.name{
+    $color:black;
+    width:160px;
+    font-weight:2em;
+    margin:7px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float:left;
+    a {
+      text-decoration: none;
+      color: $color;
+    }
+}
+.img2{
+    margin-top:18px;
+}
+.synopsis{
+    font-size:12px;
+    margin:20px 8px;
+    
+}
+.tag{ 
+    $color:black;
+    margin-top:140px;
+    border:5px solid #AFEEEE; 
+    background:#AFEEEE;
+    border-radius: 5px;
+    position:relative;
+    a {
+      text-decoration: none;
+      color: $color;
+    }
+    .arrow{ 
+    position:absolute; 
+    width:40px; 
+    height:40px; 
+    bottom:188px; 
+    left:100px; 
+}
+}
+.arrow *{ 
+    display:block; 
+    border-width:20px; 
+    position:absolute; 
+    border-style: dashed dashed dashed solid; 
+    font-size:0; 
+    line-height:0; 
+}
+.arrow em{
+    border-color: transparent transparent #AFEEEE;
+}
+.arrow span{
+    border-color: transparent transparent #AFEEEE; 
+}
+.arrow a{
+    font-size:16px;
+    color:#1E90FF;
+    text-decoration: none;
+}
+.child_know, .child_tellyou{
+
+}
+.tellyou{
+    margin-top:30px;
+}

@@ -1,0 +1,52 @@
+.search-header {
+  height: 144px;
+  width: 100%;
+  background-color: #d9dde1;
+}
+.search-form {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  position: relative;
+}
+.search-form-ipt {
+	float: left;
+	margin-top: 36px;
+  width: 560px;
+  height: 48px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 16px 0 52px;
+  font-size: 16px;
+  color: #4c647c;
+}
+.search-img {
+  position: relative;
+  left: -550px;
+  top: 45px;
+}
+.search-btn {
+	float: left;
+  width: 80px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  background-color: #1794dc;
+  cursor: pointer;
+}
+.search-result{
+  width:1200px;
+  margin: 0 auto;
+
+}
+.search-count{
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #93999f;
+  padding-left: 100px;
+}

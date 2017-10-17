@@ -1,0 +1,96 @@
+.body{
+	background-image:linear-gradient(to top left,#708090,#778899,#a9a9a9)
+	
+}
+
+.zc{
+	top:auto;
+	//position:absolute;
+	width:1000px;
+	height:900px;
+	left:auto;
+	right:auto;
+	margin:auto;
+	list-style:none;
+	line-height:4em; 
+	text-align:center;
+	padding:10px;
+}
+
+
+
+.nc {
+	font-weight:bold;
+	text-align:center;
+	margin-right:auto;
+	font-size:18px;
+    width: 100px;
+	padding-left:auto;
+	font-style:28px;
+	font-family:'幼圆'；
+	}
+.nc_input_error{
+	background-color: rgba(255,0,0,0.1)
+}
+.xb{
+	//position:absolute;
+	//padding-right:500px;
+	font-weight:bold;
+	text-align:center;
+	margin-right:auto;
+	font-size:18px;
+    width: 100px;
+	padding-left:auto;
+	padding-right:208px;
+	//margin-right:200px;
+	font-style:28px;
+	font-family:'幼圆'；
+}
+.xb1{
+	padding-right:200px;
+}
+.sex{
+	display:inline;
+}
+.man{
+	width:50px;
+}
+.woman{
+	width:50px;
+}
+.tj{
+	float:right;
+	width:20px;
+	padding-right:330px;
+}
+.tj1{
+	width:100px;
+	color:white;
+	font-size:20px;
+	font-family:'';
+    background: linear-gradient(to bottom, rgba(71,204,237,1) 0%, rgba(105,213,241,1) 100%); 
+    border-radius: 20px;
+
+}
+#components-form-demo-register .icp-selector {
+  width: 60px;
+}
+.register{
+    width: 40%;
+    margin:50px auto 50px auto;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.bigname{
+	position: relative;
+	top:-53px;
+}
+.aa{
+	position: relative;
+	top:-50px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "宋体";
+}

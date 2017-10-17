@@ -1,0 +1,31 @@
+.modifyinfo{
+    position: relative;
+    left: 100px;
+    background-color: #fff;
+    border-radius: 2px;
+    
+    .profileHeader-avatar{
+        height: 178px;
+        width: 185px;
+        border: 1px solid silver;
+    }
+    .container{
+
+    }
+    .mask{
+        height: 169px;
+        width: 169px;
+        background-color:rgba(#8b8b8b, 0.8) 
+    }
+    .upload{
+        position: relative;
+        top:20px;
+    }
+    .uploadfont{
+        margin-top: 30px;
+        font-family: '宋体'
+    }
+    .ant-upload-drag-container{
+        width: 170px;
+    }
+}

@@ -1,0 +1,36 @@
+
+	.course1{
+		height:20px;
+		width: 120px;
+		margin-left: 20px;
+		text-align: left;
+		a{
+			text-decoration: none;
+			color: rgb(102, 102, 102);
+			&:hover{
+				color:rgb(85, 185, 41);
+			}
+    }
+	}
+	.courseRecent1{
+		margin-top: 20px;
+	}
+	.courseRecent2 .courseRecent3{
+		margin-top: 6px;
+	}
+	.mycourse-btn{
+		margin-left: 20px;
+		margin-top: 20px;
+		height: 36px;
+		width: 150px;
+		background-color:rgb(85, 185, 41); 
+		border-radius: 2px;
+			span{
+			display: inline-block;
+			margin-left: 40px;
+			margin-top: 5px;
+			font-size: 16px;
+    	color: white;
+    	text-align: center;
+		}
+	}

@@ -1,0 +1,79 @@
+.card-con {
+  position: relative;
+  top: 0;
+  height: 228px;
+  width: 100%;
+  min-width: 224px;
+  margin-left: 40px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.course-card {
+  display: inline-block;
+  height: 228px;
+  width: 100%;
+  min-width: 250px;
+  z-index: 1;
+  border-radius: 4px;
+  border: 1px;
+  overflow: hidden;
+  transition: .3s all linear;
+  &:hover {
+    box-shadow: 3px 5px 10px 3px rgba(7, 17, 27, .2);
+  }
+  .course-wrap {
+    height: 50px;
+    width: 100%;
+    background-color: #d8cece;
+    overflow: hidden;
+  }
+  .course-wrap span {
+    position: relative;
+    top: 10px;
+    float: left;
+    margin-left: 15px;
+    color: white;
+    font-size: 16px;
+  }
+  .course-body p {
+    font-size: 12px;
+    color: #333;
+    line-height: 24px;
+    margin: 3px 0;
+    text-indent: 2.5em;
+  }
+  .course_know {
+    height: 120px;
+    text-overflow: ellipsis;
+  }
+  .course-bottom {
+    //margin: 0 auto;
+		 //display: inline-block;
+   // margin-top: 15px; //margin-left: 55px;
+	 position: relative;
+	 top:-15px;
+    float: right;
+    margin-right: 50px;
+		margin-bottom: 20px;
+		button {
+			width: 100%;
+		}
+  }
+  .course-card-info1 span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: #93999f;
+    font-size: 14px;
+  }
+  .course-card-info {
+    span {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 12px;
+      color: #93999f;
+      line-height: 24px;
+    }
+  }
+}

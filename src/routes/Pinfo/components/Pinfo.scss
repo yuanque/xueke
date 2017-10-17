@@ -1,0 +1,135 @@
+.total-wrapper{
+  width:100%;
+  min-width: 1235px;
+  height: 280px;
+  background: linear-gradient(#1DB0B8, #37C6C0,#D0E9FF);
+}
+.header-wrapper{
+ min-width:1200px;
+ width: 80%;
+  height: 280px;
+  margin: 0 auto;
+  padding-top: 80px;
+ position: relative;
+  top:0px;
+   background: linear-gradient(#1DB0B8, #37C6C0,#D0E9FF);
+}
+.master-avatar{
+  position: absolute;
+  left:10px;
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+}
+.master-avatar img{
+  top:20px;
+  left:10px;
+  height: 160px;
+  width: 160px;
+  display: block;
+  border-radius: 100px;
+  border: 6px solid rgba(0,0,0,.08);
+  background-clip: padding-box;
+}
+.master-info{
+    display: inline-block;
+    width:70%;
+    height: 100px;
+     position: relative;
+     top:40%;
+     margin-left: 220px;
+}
+.master-info h2{
+  font-size: 22px;
+  font-family: "宋体";
+  color: white;
+}
+.master-info a{
+    text-decoration: none;
+}
+.personal-info{
+  height: 16px;
+  width: 450px;
+  color: #B5B2C1;
+  line-height: 1;
+  margin-top: 0px;
+}
+.personal-info span{
+   font-size: 12px;
+   font-family: 宋体;
+}
+.introduction{
+  margin-top: 8px;
+  width: 446px;
+}
+.introduction span{
+  color: gray;
+  font-size: 15px;
+  font-family: "宋体"  
+}
+.public-panel{
+  display: inline-block;
+  position: absolute;
+  left: 500px;;
+  top: 20px;
+  height: 84px;
+  width: 250px;
+}
+.panel-follow{
+  position: relative;
+  display: inline-block;
+  width: 72px;
+  height: 82px;
+  background: rgba(0,0,0,.15);
+  border-radius: 3px;
+  margin-left: 10px;
+}
+.panel-follow a{
+  text-decoration: none;
+}
+.panel-follow img{
+  display: block;
+  margin-left: 15px;
+  margin-top: 19px;
+}
+.panel{
+  margin-left: 28px;
+  color: white;
+  font-size: 12px;
+}
+.page-body{
+  margin-top: 10px;
+  width: 100%;
+  min-width: 1235px;
+}
+.slider{
+  width: 200px;
+  height: 500px;
+  border-right: 2px solid silver;
+}
+.slider a{
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 50px;
+  &:hover {
+    color: red;
+  }
+}
+.slider span{    
+  font-size: 16px;
+  margin-top: 10px; 
+  margin-left: 10px;
+}
+.slider img{
+  margin-top: 5px;
+}
+.main-center{
+  width: 100%;
+  margin-left: 50px;
+}
+.main-center1{
+  
+}

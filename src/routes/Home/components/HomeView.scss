@@ -1,0 +1,48 @@
+.homepage{
+  min-width: 1235px;
+  max-width: 1450px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  .sildebar {
+    height: 400px;
+    width: 250px;
+    border: 1px solid red;
+  }
+  .carousel{
+    min-width: 1235px;
+  }
+.title{
+    border-bottom: groove;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    width: 100%;
+    min-width: 1235px;
+    margin-left: auto;
+    margin-right: auto;
+     font-weight: 200;
+  }
+  .rigthbar{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 260px;
+    width: 200px;
+    border:1px solid orange;
+    border-radius:red; 
+  } 
+  .course-com{
+    position: relative; 
+    top: 10px;
+    width: 100%;
+    min-width: 1235px;
+    margin: 0 auto;
+  }
+  .ant-row{
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .pagination{
+    margin-left: 500px;
+  }
+}

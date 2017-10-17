@@ -1,0 +1,80 @@
+
+//course样式
+
+.course{
+  position: relative;
+  top:10px;
+  border: 1px solid silver;
+  height:160px;
+  width:500px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.couse-detail{
+  position: relative;
+  top: 10px;
+  left:20px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.i-left{
+  color: gray;
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 13px;
+}
+.catog-points{
+  margin-top: 15px;
+}
+.continute-btn{
+    position: absolute;
+    left:350px;
+    top:26px;
+    display: inline-block;
+    font-size: 14px;
+   // border: 1px solid #f01400;
+    color: #37C6C0;
+    width: 90px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1px;
+}
+  .continute-btn1{
+    position: absolute;
+    left:350px;
+    top:66px;
+    display: inline-block;
+    font-size: 14px;
+    //border: 1px solid #f01400;
+    color: #37C6C0;
+    width: 90px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1px;
+}
+.continute-btn:hover{
+  //background-color: red;
+  border-bottom: 1px solid #37C6C0;
+  color: #37C6C0;
+  text-decoration: none;
+  border-radius: 2px; 
+}
+.continute-btn1:hover{
+  border-bottom: 1px solid #37C6C0;
+  //background-color: red;
+  color: #37C6C0;
+  text-decoration: none;
+  border-radius: 2px; 
+}
+.course-info{
+  margin-top: 10px;
+  font-size: 12px;
+  text-indent: 1em;
+  width: 300px;
+  color: gray;
+}

@@ -1,0 +1,68 @@
+.ant-layout-header{
+  background: white; 
+}
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub{
+  background: white;
+}
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item>a {
+  color: gray;
+}
+.ant-menu-dark .ant-menu-item-active,
+ .ant-menu-dark .ant-menu-item:hover,
+  .ant-menu-dark .ant-menu-submenu-active,
+   .ant-menu-dark .ant-menu-submenu-selected,
+    .ant-menu-dark .ant-menu-submenu-title:hover, 
+    .ant-menu-dark .ant-menu-submenu:hover,
+     .ant-menu-dark:not(.ant-menu-inline) .ant-menu-submenu-open{
+color: black;
+font-size: 15px;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected{
+  background: #ecf6fd;
+}
+.ant-layout-has-sider{
+  margin-top: 20px;
+}
+.ant-menu-dark.ant-menu-horizontal{
+  border-bottom-color: #108ee9;
+  //border-bottom-style: dotted;
+}
+.ant-layout{
+  background: white;
+}
+.plus{
+  width: 300px;
+  height: 200px;
+  margin-left: 22px;
+  margin-top: 20px;
+  padding-left: 38%;
+  padding-top: 20%;
+  padding-bottom: 14%;
+  color: lightgrey;
+}
+.plus:hover{
+  color: #6A9FB5;
+}
+.but{
+  position: absolute;
+  top: 150px;
+  left: 185px;
+}
+.courselist{
+  display: flex;
+  flex-wrap: wrap;
+}
+// coursecard 的样式
+.coursecard{
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+.back{
+
+}
+.back:hover{
+  color: #6A9FB5;
+}
+.delet:hover{
+  color: red;
+}

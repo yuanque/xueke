@@ -1,0 +1,83 @@
+.course-qa{
+	
+	width: 100%;
+	min-width: 550px;
+    border-top: 1px dashed #999;
+    padding: 15px 0px;
+  
+    margin-top: 10px;
+    .question-list{
+			height: 100px;
+			width: 600px;
+			
+		}
+		a{	text-decoration: none;}
+		.qa-title{
+			margin-left: 15px;
+			font-size: 14px;
+			
+		}
+		.header-container{
+			display: inline-block;
+			position: relative;
+			top:5px;
+			left:10px;
+			height: 30px;
+			width: 30px;
+			img{
+				border-radius: 50%;
+				box-shadow: 0 0 1px 3px silver;
+			}
+		}
+		@mixin icon-ques {
+    	position: relative;
+			top:-24px;
+			left:21px;
+			border: 3px solid white;
+			border-radius: 50%;
+			background-color: white;
+	}
+		.icon-ques-revert{
+			@include icon-ques;
+			color: #b7bbbf;			
+		}
+		.icon-ques-true{
+			@include icon-ques;
+			color: #00b43c;			
+		}
+		.qa-content{
+			display: inline-block;
+			width: 100%; 
+		}
+		.user-name{
+			display: inline-block;
+			font-size: 12px;
+			color: #4d555d;
+		}
+		.qa-res{
+			display: inline-block;
+			margin-left: 15px;
+			font-size: 10px;
+			text-decoration: none;
+			animation: 1s;
+			&:hover{
+				color: #84d09d;
+				
+			}
+		}
+		.qa-time{
+			font-size: 8px;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+}
+textarea.ant-input{
+   //max-width: 500px;
+    width: 100%;
+   
+    resize: none;
+    //height: 50px;
+    
+    border-radius: 3px;
+   
+  }

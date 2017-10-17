@@ -1,0 +1,106 @@
+.comment-list{
+    
+    margin-left: 30px;
+.hand{
+    cursor:pointer;
+    width:100px;
+    margin:15px;
+    color:skyblue; 
+}
+.comment_textarea{
+    padding: 20px;
+}
+.comment_textarea2{
+    padding: 20px;
+    border-color: black;
+}
+.comment_box{
+    font-family: 微软雅黑;
+    border-width: thin;
+    margin-top: 25px;
+    padding: 10px 0px;
+    border-top: 1px dashed #ccc;
+}
+.comment_send{
+    margin-top: 20px;
+  
+    font-family: YouYuan;
+    &:hover{
+        color:skyblue;
+    }
+}
+.comment-detail{
+    font-size: 14px;
+}
+.comment_send22{
+    margin-top:0px;
+    margin-bottom: 20px;
+    float: right;
+    font-family: YouYuan;
+}
+.comment-title{
+    margin:9px 0px;
+}
+h5{
+    margin-top:9px;
+    margin-bottom: 0px;
+    color:#B0C4DE; 
+    font-size:8px;
+}
+.tx img{
+    border-radius: 100%;
+    float:left;
+    margin-right:24px;
+    margin-bottom:30px;
+    margin-top:14px;
+}
+.zan{
+    float:right;
+    margin-right: 20px;
+    cursor:pointer;
+    h6{
+    color:#5F9EA0;
+    margin-top:-14px;
+    }
+    &:focus{
+        color:red;
+    }
+}
+}
+
+//Exam组件的样式
+.exam-detail{
+  height: 180px;
+  width: 640px;
+	border: 1px solid silver;
+	border-radius: 3px;
+	.exam-type{
+    color: #9b3286;
+    font-size: 24px;
+	}
+	.status_header{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.status_body{
+		margin-left: 25px;
+		font-size: 12px;
+	}
+	.status_tag{
+		border: 1px solid #ce2432;
+		color: #ce2432;
+		position: relative;
+		left: 362px;
+		top:42px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 6px 8px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 8px;
+	}
+	.exam-type a{
+		text-decoration: none;
+	}
+}
+//作业组建的样式
